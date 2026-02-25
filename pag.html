@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        border-radius: 10px;
+        margin-top: 80px;
+        margin: 0;
+        height: 90vh;
+        background-color: yellow;
+        margin-bottom: 80px;
+      }
+      .caixa-inicio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        border-radius: 30px;
+        background-color: white;
+        border-right: 10px solid black;
+        border-bottom: 10px solid black;
+      }
+      #img1 {
+        display: flex;
+        justify-content: center;
+        border-radius: 30px;
+        padding: 20px;
+      }
+      #p1 {
+        font-size: 15px;
+        border-radius: 5px;
+        border-radius: 5px solid yellow;
+        padding: 5px;
+        margin-left: 20px;
+        font-weight: bold;
+        background-color: yellow;
+        justify-content: center;
+      }
+      #p2 {
+        margin-left: 20px;
+        padding: 5px;
+      }
+      #h1 {
+        font-size: 25px;
+        margin-left: 20px;
+        color: #daa520;
+      }
+      #p3 {
+        margin-left: 20px;
+        opacity: 0.5;
+      }
+      #img {
+        align-items: center;
+        display: flex;
+        justify-content: left;
+        margin-left: 20px;
+        width: 30px;
+        margin-bottom: 20px;
+      }
+      #nome {
+        display: flex;
+        margin-left: 5px;
+        padding: 5px;
+        margin-bottom: 20px;
+      }
+      #container {
+        display: flex; /* Coloca os itens lado a lado */
+        align-items: center; /* Alinha verticalmente ao centro */
+        gap: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="caixa-inicio">
+      <form>
+        <img
+          id="img1"
+          src="/blog-preview-card-main/assets/images/illustration-article.svg"
+        />
+        <br />
+        <strong id="p1">Estudos</strong>
+        <br />
+        <p id="p2">Publicação, 25 de Fevereiro 2026</p>
+        <h1 id="h1">HTML e CSS Fundamentos</h1>
+        <p id="p3">
+          Fundamentos básicos mas que valem a pena <br />
+          pois sem fundamento básico não sabemos nada.
+        </p>
+        <div id="container">
+          <img
+            id="img"
+            src="/blog-preview-card-main/assets/images/image-avatar.webp"/>
+          <strong id="nome">Felipe Becker</strong>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
